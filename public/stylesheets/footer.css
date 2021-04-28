@@ -1,0 +1,48 @@
+/* footer */
+.jumbotron{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.shadowbox{
+padding: 100px;
+margin: 50px;
+color: white;
+background-color: #1c2129 !important;
+text-align: center;
+}
+.shadowbox p{
+color: white;
+font-size: medium;
+margin-bottom:30px;
+}
+.shadowbox .row{
+width: auto;
+margin: auto;
+margin-top: 100px;
+display: flex;
+justify-content: space-around;
+margin-top: -5px;
+padding-top: 15px;
+}
+hr{
+margin-top: 10px !important;
+margin-bottom: 10px !important;
+width: 800px;
+margin: 0 auto;
+justify-self: center;
+border-bottom:1px solid rgba(255,255,255) !important;
+}
+.shadowbox a:hover{
+text-decoration: none;
+transform: scale(1.1);
+}
+.shadowbox .color:hover{
+color: #943541!important;
+cursor: pointer;
+}
+.a{
+text-decoration: blue;
+}

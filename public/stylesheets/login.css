@@ -1,0 +1,27 @@
+body{
+  background: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+}
+
+input, button {
+  font-family: 'Nunito', sans-serif;
+}
+
+.form-group,
+.form-check{
+  flex-direction: column;
+  align-items: center;
+  padding-left: 40%;
+  padding-right: 40%;
+  margin-left: 40px;
+}
+.form-button{
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  padding-left: 40%;
+  margin-left: 40px;
+}
